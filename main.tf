@@ -28,7 +28,7 @@ resource "google_compute_subnetwork" "subnet" {
 }
 
 resource "google_compute_instance" "vm" {
-  name         = "demo-vm"
+  name         = "demo2-vm"
   machine_type = "e2-medium"
   zone         = var.zone
 
